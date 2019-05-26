@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Link Roulette! - Just roll with it.</title>
+  <script src="randomize.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+    header {
+      width: 14em;
+      margin: 1em auto;
+    }
+    header h1 {
+      margin: 0;
+    }
+    header p {
+      text-align: right;
+      margin: 0;
+    }
+    input {
+      font-size: 1em;
+    }
+    .inputs {
+      display: flex;
+      flex-direction: column;
+    }
+    .inputs * {
+      margin: .5em 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Link Roulette!</h1>
+    <p>Just roll with it.</p>
+  </header>
+
+  <p>Enter a list of links to be randomized</p>
+  <form id="form">
+    <div class="inputs">
+      <input type="text" placeholder="Link 1" />
+      <input type="text" placeholder="Link 2" />
+    </div>
+    <button id="add" type="button">Add another link</button>
+    <button type="submit">Generate randomizer link</button>
+  </form>
+  <p class="link">
+    <a href="#"></a>
+  </p>
+  <script src="index.js"></script>
+</body>
+</html>
