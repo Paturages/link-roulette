@@ -1,6 +1,6 @@
 # Link Roulette!
 
-Just roll with it.
+[Just roll with it](https://paturages.github.io/link-roulette/).
 
 A very simple application that takes in an array of links and generates a link that redirects to one of those links at random.
 
